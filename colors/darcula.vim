@@ -32,8 +32,8 @@ hi Comment ctermfg=244 ctermbg=NONE cterm=NONE guifg=#8e9292 guibg=NONE gui=none
 hi Conditional ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
 hi Constant ctermfg=103 ctermbg=NONE cterm=NONE guifg=#9676ac guibg=NONE gui=bold
 hi Define ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
-hi DiffAdd ctermfg=188 ctermbg=64 cterm=bold guifg=#a9b7c6 guibg=#365546 gui=bold
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8c0909 guibg=NONE gui=NONE
+hi DiffAdd ctermfg=118 ctermbg=64 cterm=bold guifg=#a9b7c6 guibg=#365546 gui=bold
+hi DiffDelete ctermfg=199 ctermbg=NONE cterm=NONE guifg=#8c0909 guibg=NONE gui=NONE
 hi DiffChange ctermfg=188 ctermbg=23 cterm=NONE guifg=#a9b7c6 guibg=#263b59 gui=NONE
 hi DiffText ctermfg=188 ctermbg=24 cterm=bold guifg=#a9b7c6 guibg=#204a87 gui=bold
 hi ErrorMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
@@ -81,6 +81,8 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 let g:gitgutter_override_sign_column_highlight = 0 " Tell git gutter to leave the background alone.
 hi SignColumn ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
 hi LineNr ctermfg=60 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
+hi diffAdded ctermfg=118 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
+hi diffRemoved ctermfg=199 ctermbg=236 cterm=NONE guifg=#888888 guibg=#323232 gui=NONE
 
 " Extra Ruby highlighting.
 hi rubyClass ctermfg=172 ctermbg=NONE cterm=NONE guifg=#c57825 guibg=NONE gui=bold
